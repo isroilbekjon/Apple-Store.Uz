@@ -302,27 +302,31 @@ body {
     line-height: 16px;
     color: #838383;
 }
-.d-flex{
+
+.d-flex {
     gap: 20px;
     padding-top: 30px;
 }
-.car-father{
+
+.car-father {
     border-radius: 15px;
     box-shadow: 10px 20px 20px grey;
     background-color: #fff;
     padding: 10px;
     margin-top: 50px;
 }
-.car-father:hover{
+
+.car-father:hover {
     cursor: pointer;
     border-radius: 15px;
     box-shadow: 10px 20px 20px #000;
     background-color: #fff;
     padding: 10px;
     margin-top: 50px;
-    transition: .7s ;
+    transition: .7s;
 }
-.icons{
+
+.icons {
     background-color: #fff;
     padding: 20px 10px;
     display: flex;
@@ -332,7 +336,8 @@ body {
     box-shadow: 10px 10px 10px grey;
     cursor: pointer;
 }
-.icons:hover{
+
+.icons:hover {
     background-color: #fff;
     padding: 20px 10px;
     display: flex;
@@ -343,9 +348,174 @@ body {
     cursor: pointer;
     transition: .7s;
 }
-.number-father{
+
+.number-father {
     padding-left: 100px;
     padding-top: 30px;
+}
+
+
+
+
+.textkilo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C27;
+    margin-top: 50px;
+}
+
+.cardtxtt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    color: #1C1C27;
+    padding-top: 70px;
+    margin-right: -60px;
+}
+
+.limuhyg {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 30px;
+    color: #AAAAAA;
+}
+
+.card1father {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 20px 20px gray;
+    margin-top: 20px;
+}
+
+.card1father:hover {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 20px 20px #000;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.iconmusr {
+    margin-left: 300px;
+    margin-top: -10px;
+}
+
+.imahfe {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.hisob-txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #1C1C27;
+    padding-left: 400px;
+}
+
+.holatxt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.ilo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding-left: 180px;
+}
+
+.btn1 {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.card2father {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 20px 0px 0px 0px;
+    box-shadow: 10px 10px 10px gray;
+    margin-top: 20px;
+}
+
+.card2father:hover {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 20px 0px 0px 0px;
+    box-shadow: 10px 10px 10px #000;
+    transition: .7s;
+}
+
+.dostavkatext {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.dosro {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+#idd {
+    margin-left: -100px;
+}
+
+.card3father {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 20px 20px grey;
+}
+
+.card3father:hover{
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 20px 20px #000;
+    cursor: pointer;
+    transition: .7s;
 }
 
 @media (max-width: 576px) {
@@ -415,10 +585,38 @@ body {
     .carousel-control-prev-icon {
         width: 20px;
     }
+
     .number-father {
-        padding: 0px 30px 0px 0px 
+        padding: 0px 30px 0px 0px
     }
-    .nashofis-img{
+
+    .nashofis-img {
         width: 100%;
+    }
+    .iconmusr {
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    .hisob-txt {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: right;
+        color: #1C1C27;
+        padding: 0px 0px 0px 0px;
+        margin-right: 0;
+    }
+    .imagecarta{
+        width: 100%;
+    }
+    .dosro {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
     }
 }
