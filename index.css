@@ -233,7 +233,6 @@ body {
 
 .options {
     margin-right: 100px;
-
 }
 
 .txt-head {
@@ -255,14 +254,16 @@ body {
     padding-top: 10px;
     padding-left: 20px;
 }
-.text-of-section{
+
+.text-of-section {
     margin-top: 100px;
     background-color: #fff;
     padding: 20px 30px;
     border-radius: 20px;
     cursor: pointer;
 }
-.text-of-section:hover{
+
+.text-of-section:hover {
     margin-top: 100px;
     background-color: #fff;
     padding: 20px 30px;
@@ -271,7 +272,81 @@ body {
     transition: .7s;
 }
 
+.nashofis-txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
 
+.nashofisimage {
+    padding-top: 20px;
+}
+
+.texticon {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.isal {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #838383;
+}
+.d-flex{
+    gap: 20px;
+    padding-top: 30px;
+}
+.car-father{
+    border-radius: 15px;
+    box-shadow: 10px 20px 20px grey;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+}
+.car-father:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 10px 20px 20px #000;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+    transition: .7s ;
+}
+.icons{
+    background-color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+    cursor: pointer;
+}
+.icons:hover{
+    background-color: #fff;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #000000;
+    cursor: pointer;
+    transition: .7s;
+}
+.number-father{
+    padding-left: 100px;
+    padding-top: 30px;
+}
 
 @media (max-width: 576px) {
     .phoneApple {
@@ -279,6 +354,7 @@ body {
         padding-top: 15px;
         padding-bottom: 20px;
     }
+
     .txt-body {
         font-family: 'Montserrat';
         font-style: normal;
@@ -289,6 +365,7 @@ body {
         padding-top: 10px;
         padding-left: 20px;
     }
+
     .airpots {
         margin-bottom: 10px;
         transition: .5s;
@@ -337,5 +414,11 @@ body {
 
     .carousel-control-prev-icon {
         width: 20px;
+    }
+    .number-father {
+        padding: 0px 30px 0px 0px 
+    }
+    .nashofis-img{
+        width: 100%;
     }
 }
