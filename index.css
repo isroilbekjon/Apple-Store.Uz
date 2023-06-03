@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #EAEAEA;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background: #EAEAEA;
+}
+
+.logoName {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #101010;
+
+}
+
+
+.options {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+.textLogoIcons {
+    text-align: end;
+}
+
+
+.likeLogo {
+    cursor: pointer;
+}
+
+.select {
+    background: transparent;
+    border: none;
+}
+
+
+.carousel-item {
+    position: relative;
+}
+
+
+.phone {
+    position: absolute;
+    top: 0;
+    right: 140px;
+}
+
+
+.name_options {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #838383;
+    padding-top: 20px;
+}
+
+.cartphones {
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.phoneApple {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* padding: 25px 70px; */
+}
+
+.title {
+    padding-bottom: 30px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+}
+
+.verSia {
+    padding-top: 20px;
+}
+
+.texts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.1687px;
+    line-height: 23px;
+    color: #DF6464;
+}
+
+.nameCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.cardHeadphone {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 100%;
+    padding: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.likeButton {
+    text-align: start;
+}
+
+.airpots {
+    height: 220px;
+    margin-bottom: 10px;
+    transition: .5s;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.airpots:hover {
+    transition: .5s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+
+.listLang {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.list_item {
+    line-height: 30px;
+}
+
+.serviceTExt {
+    text-align: center;
+}
+
+
+#footer {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 100px;
+    padding-top: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.service {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+
+
+.listLanguage {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101010;
+}
+
+
+.active {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFA542;
+}
+
+.dropdown-toggle {
+    border: none;
+}
+
+.options {
+    margin-right: 100px;
+
+}
+
+.txt-head {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.txt-body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.text-of-section{
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.text-of-section:hover{
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px grey;
+    transition: .7s;
+}
+
+
+
+@media (max-width: 576px) {
+    .phoneApple {
+        width: 30%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .txt-body {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+        color: gray;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .airpots {
+        margin-bottom: 10px;
+        transition: .5s;
+        transform: scale(.9);
+        width: 100%;
+        height: 100%;
+    }
+
+    .nameCard {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 15px;
+        color: #1C1C27;
+    }
+
+    .price {
+        font-size: 12px;
+        /* display: none; */
+    }
+
+    .star {
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .cardHeadphone {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    #footer {
+        margin-top: 20px;
+    }
+
+    .carousel-control-next-icon {
+        width: 20px;
+    }
+
+    .carousel-control-prev-icon {
+        width: 20px;
+    }
+}
